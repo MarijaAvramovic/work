@@ -1,3 +1,6 @@
 # work
 
-new file added, MyForm.static.html bootstrap
+new file added, MyForm.static.html bootstrap - vezbabt.html
+
+
+static.website added - index.html 
