@@ -1,0 +1,77 @@
+/****HEADER SECTION****/
+ header h1{
+     font-weight: 200;
+     margin: 0;
+ }
+
+header a{
+    color: black;
+    margin-left: 24px;
+}
+header a:hover{
+    color: black;
+}
+header a:visited{
+    color: black;
+}
+
+#menu-icon{
+    width: 24px;
+}
+/****HERO SECTION****/
+#hero-background{
+    background: url(../imgs/hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vw;
+}
+@media(max-width: 420px){
+    #slogan{
+    display: none;
+   
+}
+}
+@media(min-width: 520px){
+        #slogan{
+        background-color: #2fc389;
+        width: 400px;
+       
+    }
+}
+@media(max-width: 519px){
+    #slogan{
+        background-color: #2fc389;
+        width: 300px;
+        font-size: 0.2rem;
+       
+    }
+}
+
+#nav-section{
+    background-color: #222222;
+}
+
+#nav-section a{
+    color:rgb(223, 221, 221);
+    font-size: 12px;
+
+}
+#nav-section a:hover{
+    color: rgb(223, 221, 221);
+}
+#nav-section a:visited{
+    color: rgb(223, 221, 221);
+}
+
+#recent-post hr{
+    margin: 3px 0 3px 0 !important;
+}
+#recent-work hr{
+    margin: 0 !important;
+}
+
+footer{
+    background-color: #111111;
+}
+
